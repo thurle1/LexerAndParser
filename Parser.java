@@ -63,7 +63,7 @@ public class Parser {
             val.append(arithmaticExpression(myLexer) + ")");
         } else if (myLexer.kind() == Tok_Types.less_than) {
             myLexer.next();
-            val.append("(OP_LT");
+            val.append("(OP_LT" + val2);
             val.append(arithmaticExpression(myLexer) + ")");
         } else {
             val.append(val2);
