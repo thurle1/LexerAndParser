@@ -1,7 +1,6 @@
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.ArrayList;
 
 public class Parser {
     final static String fileName = "fileToRead.txt";
